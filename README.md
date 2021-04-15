@@ -1,1 +1,1 @@
-# csulb_stat560_nonparametric_R_codes
+# CSULB STAT 560 Nonparametric Statistics R Example Codes
