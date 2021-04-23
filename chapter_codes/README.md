@@ -1,6 +1,6 @@
 # R Codes by Section
 
-**Same issues in the code:**
+**Some issues in the code:**
 
 * For testing, the methods cannot handle ties in ranks, so results will sometimes differ
 * Ch 5 - the `gam` package does not support bivariate spline smoothers, so the `mgcv` package is used. The `mgcv` package supports bivariate spline smoothers, but it is based on Bayesion methods so the results will differ
