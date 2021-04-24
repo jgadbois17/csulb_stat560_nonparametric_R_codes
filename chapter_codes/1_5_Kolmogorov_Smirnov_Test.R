@@ -5,6 +5,11 @@
 
 # Joey Gadbois
 
+
+# libraries
+library(tidyverse)
+library(magrittr)
+
 #--------------------------------------------------------------------------------
 
 # Example 1.13
@@ -16,7 +21,8 @@ bioimplant = list(
 )
 
 # kolmogorov-smirnov test
-ks.test(bioimplant$Tx, bioimplant$Cx, alternative = 'greater')
+bioimplant %$% 
+  ks.test(Tx, Cx, alternative = 'greater')
 
 #--------------------------------------------------------------------------------
 
@@ -29,7 +35,8 @@ leukemia = list(
 )
 
 # kolmogorov-smirnov test
-ks.test(leukemia$Cx, leukemia$Tx, alternative = 'less')
+leukemia %$% 
+  ks.test(Cx, Tx, alternative = 'less')
 
 #--------------------------------------------------------------------------------
 
@@ -42,7 +49,8 @@ elderly = list(
 )
 
 # kolmogorov-smirnov test
-ks.test(elderly$men, elderly$women, alternative = 'two.sided')
+elderly %$% 
+  ks.test(men, women, alternative = 'two.sided')
 
 #--------------------------------------------------------------------------------
 

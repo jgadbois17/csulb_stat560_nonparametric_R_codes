@@ -5,6 +5,11 @@
 
 # Joey Gadbois
 
+
+# libraries
+library(tidyverse)
+library(magrittr)
+
 #--------------------------------------------------------------------------------
 
 # Example 1.10
@@ -16,9 +21,8 @@ psych_tests = list(
 )
 
 # ansari-bradley test
-ansari.test(psych_tests$old, psych_tests$new, 
-            alternative = 'greater', 
-            conf.level = 0.95)
+psych_tests %$% 
+  ansari.test(old, new, alternative = 'greater', conf.level = 0.95)
 
 #--------------------------------------------------------------------------------
 
@@ -31,9 +35,8 @@ bioimplant = list(
 )
 
 # ansari-bradley test
-ansari.test(bioimplant$Tx, bioimplant$Cx, 
-            alternative = 'less', 
-            conf.level = 0.95)
+bioimplant %$% 
+  ansari.test(Tx, Cx, alternative = 'less', conf.level = 0.95)
 
 #--------------------------------------------------------------------------------
 
@@ -46,9 +49,8 @@ elderly = list(
 )
 
 # ansari-bradley test
-ansari.test(elderly$men, elderly$women, 
-            alternative = 'two.sided', 
-            conf.level = 0.95)
+elderly %$% 
+  ansari.test(men, women, alternative = 'two.sided', conf.level = 0.95)
 
 #--------------------------------------------------------------------------------
 
