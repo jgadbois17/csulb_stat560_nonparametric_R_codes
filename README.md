@@ -8,7 +8,7 @@ Supplemental R codes for the textbook "Nonparametric Methods in Statistics with 
 * **chapter_codes:** R scripts for each section in the book
 
 
-## Necessary Libraries
+# Required Libraries
 
 **Note:** the code is all based around the tidyverse package 
 
@@ -27,7 +27,7 @@ Supplemental R codes for the textbook "Nonparametric Methods in Statistics with 
 * **[bootstrap](https://cran.r-project.org/web/packages/bootstrap/index.html):** functions for the book "An Introduction to the Bootstrap"
 
 
-## Resources
+# Resources
 
 * **[R for Data Science](https://r4ds.had.co.nz/):** free online book teaching R using `tidyverse`
   * [3. Data Visualization](https://r4ds.had.co.nz/data-visualisation.html): introducing plotting with `ggplot2`
