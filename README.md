@@ -4,10 +4,11 @@ Supplemental R codes for the textbook "Nonparametric Methods in Statistics with 
 
 To update R, RStudio, and installed libraries, follow the steps in [this tutorial](https://uvastatlab.github.io/phdplus/installR.html).
 
+---
 
-## Repository Outline
+# Repository Outline
 
-* **chapter_codes:** R scripts for each section in the book
+* **[chapter_codes](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/README.md):** R scripts for each section in the book
 
 ---
 
