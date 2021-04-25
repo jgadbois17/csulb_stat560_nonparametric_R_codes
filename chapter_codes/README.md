@@ -10,6 +10,7 @@
 
 ---
 
+<a name="1"></a>
 # Chapter 1 Hypothesis Testing for Two Samples
 
 1. [Sign Test for Location Parameter for Matched Paired Samples](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/1_1_Sign_Test.R)
@@ -18,37 +19,44 @@
 4. [Ansari-Bradley Test for Scale Parameter for Two Independent Samples](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/1_4_Ansari_Bradley_Test.R)
 5. [Kolmogorov-Smirnov Test for Equality of Distributions](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/1_5_Kolmogorov_Smirnov_Test.R)
 
+<a name="2"></a>
 # Chapter 2 Hypothesis Testing for Several Samples
 
 1. [Friedman Rank Test for Location Parameter for Several Dependent Samples](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/2_1_Friedman_Rank_Test.R)
 2. [Kruskal-Wallis H-Test for Location Parameter for Several Independent Samples](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/2_2_Kruskal_Wallis_H_Test.R)
 
+<a name="3"></a>
 # Chapter 3 Tests for Categorical Data
 
 1. [Spearman Rank Correlation Coefficient Test](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/3_1_Spearman_Rank_Test.R)
 2. [Fisher Exact Test](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/3_2_Fisher_Exact_Test.R)
 
+<a name="4"></a>
 # Chapter 4 Nonparametric Regression
 
 1. [Loess Regression](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/4_1_Loess_Regression.R)
 2. [Thin-Plate Smoothing Spline Method](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/4_2_Thin_Plate_Smoothing_Splines.R)
 
+<a name="5"></a>
 # Chapter 5 Nonparametric Generalized Additive Regression
 
 2. [Nonparametric Binary Logistic Model](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/5_2_Nonparametric_Binary_Logistic_Model.R)
 3. [Nonparametric Poisson Model](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/5_3_Nonparametric_Poisson_Model.R)
 
+<a name="6"></a>
 # Chapter 6 Time-to-Event Analysis
 
 1. [Kaplan-Meier Estimator of Survival Function](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/6_1_Kaplan_Meier_Estimator.R)
 2. [Log-Rank Test for Comparison of Two Survival Functions](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/6_2_Log_Rank_Test_Survival_Functions.R)
 3. [Cox Proportional Hazards Model](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/6_3_Cox_Proportional_Hazards_Model.R)
 
+<a name="7"></a>
 # Chapter 7 Univariate Probability Density Estimation
 
 1. [Histogram](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/7_1_Histogram.R)
 2. [Kernel Density Estimator](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/7_2_Kernel_Density_Estimator.R)
 
+<a name="8"></a>
 # Chapter 8 Resampling Methods for Interval Estimation
 
 1. [Jackknife](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/8_1_Jackknife.R)
