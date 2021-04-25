@@ -2,6 +2,8 @@
 
 Supplemental R codes for the textbook "Nonparametric Methods in Statistics with SAS Applications" by Dr. Olga Korosteleva.
 
+To update R, RStudio, and installed libraries, follow the steps in [this tutorial](https://uvastatlab.github.io/phdplus/installR.html).
+
 
 ## Repository Outline
 
