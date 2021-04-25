@@ -7,15 +7,16 @@ Supplemental R codes for the textbook "Nonparametric Methods in Statistics with 
 
 * **chapter_codes:** R scripts for each section in the book
 
+---
 
 # Required Libraries
 
 **Note:** the code is all based around the tidyverse package 
 
 * **[Tidyverse](https://www.tidyverse.org/):** collection of R packages designed for data science including `ggplot2`, `dplyr`, `tidyr`, `readr`, `purrr`, `tibble`, `stringr` and `forcats`
-* **[magrittr](https://magrittr.tidyverse.org/):** a forward-pipe operator for R
-* **[rstatix](https://rpkgs.datanovia.com/rstatix/):** pipe-friendly (tidyverse compatible) framework for performing basic statistical tests
 * **[Tidymodels](https://www.tidymodels.org/):** collection of packages for modeling and machine learning using `tidyverse` principles including `broom`, `dials`, `infer`, `modeldata`, `parsnip`, `recipes`, `rsample`, `tune`, `workflows`, and `yardstick`
+* **[rstatix](https://rpkgs.datanovia.com/rstatix/):** pipe-friendly (tidyverse compatible) framework for performing basic statistical tests
+* **[magrittr](https://magrittr.tidyverse.org/):** a forward-pipe operator for R
 * **[ggpubr](https://rpkgs.datanovia.com/ggpubr/):** `ggplot2` based package for elegant data visualization in R
 * **[plotly](https://plotly.com/r/):** R graphing library for making interactive, publication-quality graphs
 * **[fANCOVA](https://cran.r-project.org/web/packages/fANCOVA/index.html):** collection of R functions to perform nonparametric analysis of covariance for regression curves or surfaces
@@ -26,6 +27,7 @@ Supplemental R codes for the textbook "Nonparametric Methods in Statistics with 
 * **[survminer](https://rpkgs.datanovia.com/survminer/):** drawing survival curves using `ggplot2`
 * **[bootstrap](https://cran.r-project.org/web/packages/bootstrap/index.html):** functions for the book "An Introduction to the Bootstrap"
 
+---
 
 # Resources
 
@@ -37,3 +39,5 @@ Supplemental R codes for the textbook "Nonparametric Methods in Statistics with 
   * [18. Pipes](https://r4ds.had.co.nz/pipes.html): shows how to use the pipe, `%>%` and `%$%`, operator to string functions together
 * [Tidyverse Packages](https://www.tidyverse.org/packages/): packages in `tidyverse` with links to their documentations
 * [Tidymodels Packages](https://www.tidymodels.org/packages/): packages in `tidymodels` with links to their documentations
+
+
