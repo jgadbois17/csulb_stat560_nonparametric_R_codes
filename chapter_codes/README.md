@@ -2,11 +2,11 @@
 
 **Some issues in the code:**
 
-* For testing, the methods cannot handle ties in ranks, so results will sometimes differ
-* Ch 5 - the `gam` package does not support bivariate spline smoothers, so the `mgcv` package is used. The `mgcv` package supports bivariate spline smoothers, but it is based on Bayesion methods so the results will differ
+* **Ch 1-3** - the methods cannot handle ties in ranks, so results will sometimes differ
+* **Ch 5** - the `gam` package does not support bivariate spline smoothers, so the `mgcv` package is used. The `mgcv` package supports bivariate spline smoothers, but it is based on Bayesion methods so the results will differ
   * When using, make sure to detach the `mgcv` package after use because the function call is the same as in the `gam` package
-* the kernel density estimators do not seem to respond as much to differing bandwidths as in SAS. The function *bw_lambda* computes the relationship between standardized bandwidth and bandwidth according to the SAS documentation
-* resampling methods will not match perfectly due to how each software handles random digits
+* **Ch 7** - the kernel density estimators do not seem to respond as much to differing bandwidths as in SAS. The function *bw_lambda* computes the relationship between standardized bandwidth and bandwidth according to the SAS documentation
+* **Ch 8** - resampling methods will not match perfectly due to how each software handles random digits
 
 ---
 
