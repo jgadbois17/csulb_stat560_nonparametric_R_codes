@@ -12,7 +12,7 @@
 
 # Chapter 1 Hypothesis Testing for Two Samples
 
-1. Sign Test for Location Parameter for Matched Paired Samples
+1. [Sign Test for Location Parameter for Matched Paired Samples](https://github.com/jgadbois17/csulb_stat560_nonparametric_R_codes/blob/main/chapter_codes/1_1_Sign_Test.R)
 2. Wilcoxon Signed-Rank Test for Location Parameter for Matched Paired Samples
 3. Wilcoxon Rank-Sum Test for Location Parameter for Two Independent Samples
 4. Ansari-Bradley Test for Scale Parameter for Two Independent Samples
