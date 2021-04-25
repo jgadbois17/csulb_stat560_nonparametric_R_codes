@@ -34,7 +34,7 @@ To update R, RStudio, and installed libraries, follow the steps in [this tutoria
 
 # Resources
 
-* **[R for Data Science](https://r4ds.had.co.nz/):** free online book teaching R using `tidyverse`
+* **[R for Data Science](https://r4ds.had.co.nz/):** free online book introducing data science in R using `tidyverse`
   * [3. Data Visualization](https://r4ds.had.co.nz/data-visualisation.html): introducing plotting with `ggplot2`
   * [5. Data Transformation](https://r4ds.had.co.nz/transform.html): introducing functions used for data transformation and preprocessing in `dplyr`
   * [11. Tibbles](https://r4ds.had.co.nz/tibbles.html): introducing tibbles, basically the same as a data frame, tibbles are used in the R codes
